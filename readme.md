@@ -75,6 +75,13 @@ this.tasks.length + 1
 13. В computed() можно писать btnText() - это то же самое.
 Также: `return this.hiddenForm ? 'Add' : 'Close'`
 
+14. formatDate в TodoItem - это computed
+
+15. isReminder - плохое именование
+
+16. Не нужен вообще item в data(), мы просто
+можем использовать пропс
+
 ## Other
 1. Strange spaces and formatting, e.g.:
 ```
